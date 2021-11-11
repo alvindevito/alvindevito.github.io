@@ -1,0 +1,71 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+} 
+
+.logo {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	transform: scale(.5);
+}
+ 
+.zine {
+	max-width: 50%;
+	height: 1020px;
+    background: url("images/pt 1 zine_front.png") no-repeat;
+	background-size: contain;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: -195px;
+	margin-bottom: -350px;
+	display: block;
+	transform: scale(.25);
+    }
+.zine:hover {
+    background: url("images/pt 1 zine_back.png") no-repeat;
+	background-size: contain;
+    }
+
+@media only screen and (max-width: 768px) {
+	.zine {
+	max-width: 50%;
+	height: 815px;
+    background: url("images/pt 1 zine_front.png") no-repeat;
+	background-size: contain;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: -145px;
+	margin-bottom: -375px;
+	display: block;
+	transform: scale(.35);
+    }
+    .zine:hover {
+    background: url("images/pt 1 zine_back.png") no-repeat;
+	background-size: contain;
+    }
+
+@media only screen and (max-width: 600px) {
+	.zine {
+	max-width: 50%;
+	height: 815px;
+    background: url("images/pt 1 zine_front.png") no-repeat;
+	background-size: contain;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: -80px;
+	margin-bottom: -440px;
+	display: block;
+	transform: scale(.5);
+    }
+    .zine:hover {
+    background: url("images/pt 1 zine_back.png") no-repeat;
+	background-size: contain;
+    }
